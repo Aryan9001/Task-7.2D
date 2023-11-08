@@ -1,0 +1,96 @@
+/* ArticleForm.css */
+
+/* Reset default styles */
+body, p, h1, h2, h3, h4, h5, h6, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333; /* Change the background color to black */
+    color: #ccc; /* Change the text color to light grey */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #444; /* Change the background color to dark grey */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+.articleHeader {
+    background-color: #222; /* Change the header background color to a darker shade */
+    color: #ccc;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.articleHeader h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+/* Form styles */
+.title,
+.Abstract,
+.Article,
+.Tag {
+    margin: 15px 0;
+}
+
+.title label,
+.Abstract label,
+.Article label,
+.Tag label {
+    display: block;
+    font-weight: bold;
+}
+
+.title input,
+.Abstract input,
+.Article input,
+.Tag input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555; /* Change the border color to a darker shade */
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #444; /* Change the input background color to dark grey */
+    color: #ccc; /* Change the text color inside input fields to light grey */
+}
+
+.button {
+    display: block;
+    width: 100%;
+    background-color: #555; /* Change the button background color to a darker shade */
+    color: #ccc;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #444; /* Change the button background color on hover to a slightly darker shade */
+}
+
+/* Image styles */
+.img {
+    background-color: #222; /* Change the image section background color to a darker shade */
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+.img h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
